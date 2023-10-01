@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #1400c6;
+    caret-color: transparent;
+    cursor: default;
+    /* overflow: auto; */
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent_1 {
+    width: 50vw;
+    border: .40em solid yellow;
+    border-radius: 15%;
+    height: 32vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0.5rem;
+    background-color: red;
+    left: 23rem;
+}
+
+.parent_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hours {
+    border: .5rem solid yellow;
+    height: 4rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.minutes {
+    border: .5rem solid yellow;
+    height: 4rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: none;
+    background-color: blue;
+}
+
+.seconds {
+    border: .5rem solid yellow;
+    height: 4rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    background: none;
+    background-color: blue;
+}
+
+.parent_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent_2 button {
+    height: 4rem;
+    width: 9rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+    border: .4rem solid yellow;
+    border-radius: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    position: relative;
+    left: .6rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.parent_2 button:hover {
+    background-color: yellow;
+    color: red;
+    border: .4rem solid red;
+    font-weight: bold;
+}
+
+.restart button {
+    width: 12rem;
+}
+
+.colon_1 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    height: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.colon_2 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    height: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .parent_1 {
+        height: 36vh;
+        width: 30rem;
+        position: relative;
+        left: 4rem;
+        /* Adjust as needed */
+    }
+    .parent_2 button {
+        width: 7rem;
+    }
+    .restart button {
+        width: 10rem;
+    }
+}
